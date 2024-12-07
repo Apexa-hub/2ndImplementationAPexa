@@ -1,0 +1,80 @@
+/* Register.css */
+.register-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-image: url('C:\Users\TUF\Documents\APEXA\React - Web Page\APEXA\APEXA\frontend\src\assets\SignUpImage.jpg');
+    padding: 0;
+    padding-right: 150px;
+    }
+    
+    .register-form {
+      background: none;
+      padding: 20px;
+      border-radius: 8px;
+      width: 400px;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter:blur(15px);
+    }
+    
+    .register-form h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #000;
+      font-size: 35px;
+      font-weight: bold;
+    }
+    
+    .mb-3 {
+      margin-bottom: 10px;
+    }
+    
+    .form-control {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0 10px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+    
+    .login-btn {
+      background-color: #ffae00;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      width: 80%;
+      border-radius: 20px;
+      font-size: 16px;
+    }
+    
+    .login-btn:hover {
+      background-color: #ff6600;
+    }
+    
+    .already-have-acc {
+      text-align: center;
+      font-size: 14px;
+    }
+    
+    .already-have-acc a {
+      color: #ffae00;
+      text-decoration: none;
+    }
+    
+    .already-have-acc a:hover {
+      text-decoration: underline;
+      color: #ff6600;
+    }
+    
+    .toast-container {
+      position: absolute;
+      bottom: 1rem;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 9999;
+    }

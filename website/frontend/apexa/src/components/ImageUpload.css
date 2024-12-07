@@ -1,0 +1,109 @@
+.create {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    height: 1PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+  
+  .upload-container {
+    text-align: center;
+    background: none;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(15px); 
+    position: relative;
+  }
+  
+  .upload-label {
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: transparent;
+    padding: 100px 150px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border: #ffffff;
+    position: relative;
+    text-align: center;
+    line-height: 200px;
+  }
+  
+  .upload-label.drag-active {
+    background-color: #ffffff;
+  }
+  
+  .upload-label.file-selected {
+    background-color: #ffffff; /* Change this to the desired color/style when a file is selected */
+  }
+  
+  .icon {
+    color: #ffffff;
+  }
+  
+ /* .upload-label:hover {
+    background-color: #8a9bae;
+  }*/
+  
+  .upload-label span {
+    display: block;
+    line-height: normal;
+    padding-top: 40px;
+
+  }
+  
+  .upload-button, .cancel-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-button {
+    background-color: #ffae00;
+    color: rgb(255, 255, 255);
+  }
+  
+  .upload-button:hover {
+    background-color: #ff6600;  }
+  
+  .cancel-button {
+    background-color: #ffae00;
+    color: rgb(255, 255, 255);
+  }
+  
+  .cancel-button:hover {
+    background-color: #ff6600; ;
+  }
+  
+  .upload-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .image-preview {
+    margin: 20px auto;
+    width: 300px;
+  }
+  
+  .image-preview img {
+    max-width: 100%;
+    max-height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  

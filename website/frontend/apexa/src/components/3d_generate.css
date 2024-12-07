@@ -1,0 +1,85 @@
+/* src/3d_generate.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('../assets/SignUpImage.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.image-gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  text-align: center;
+  color: #fff;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  padding-top: 100px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  background-color: transparent;
+  padding: 15px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.TDimage-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-item {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  color: #fff;
+}
+
+.image-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.gallery-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e64a19;
+}
+
+button:focus {
+  outline: none;
+}
+
+.zoom-controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}

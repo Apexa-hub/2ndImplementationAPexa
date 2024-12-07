@@ -1,0 +1,54 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px; /* Adjusted padding for more thickness */
+  background: rgba(0, 0, 0, 0.6); /* Darker background with more transparency */
+  backdrop-filter: blur(10px); /* Blur effect */
+  color: white; /* White text */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 22px; /* Slightly larger font size */
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 5px;
+  padding: 3px;
+}
+
+nav ul li {
+  margin-right: 15px;
+}
+
+.navlinks{
+  padding-right: 25px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white; /* White text */
+  font-size: 16px; /* Slightly larger font size */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+nav ul li a:hover {
+  color: #ff9900; /* Hover color */
+}
+
+nav ul li a.active {
+  font-weight: bold;
+  color: #ff9900; /* Active link color */
+}
+
+.main-content {
+  padding-top: 70px; /* Adjusted based on the new height of the header */
+}
